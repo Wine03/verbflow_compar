@@ -1,0 +1,15 @@
+# ninja log v5
+1	10	0	clean	83f6e09e248b7159
+1	12	0	clean	83f6e09e248b7159
+1	53	7209533048684704	CMakeFiles/expressease.dir/expressease.cpp.o	cc929d69e09b6434
+54	245	7209533050555883	C:/Users/winec/Desktop/ExpressVersion.3/EXPRESSEASE2/EXPRESSEASE2/EXPRESSEASE2/app/build/intermediates/cxx/Debug/414w3855/obj/x86/libexpressease.so	ac93c2d44a1c6309
+0	9	0	clean	83f6e09e248b7159
+0	9	0	clean	83f6e09e248b7159
+1	9	0	clean	83f6e09e248b7159
+1	78	7209534094606588	CMakeFiles/expressease.dir/expressease.cpp.o	cc929d69e09b6434
+78	219	7209534096179137	C:/Users/winec/Desktop/ExpressVersion.3/EXPRESSEASE2/EXPRESSEASE2/EXPRESSEASE2/app/build/intermediates/cxx/Debug/414w3855/obj/x86/libexpressease.so	ac93c2d44a1c6309
+1	10	0	clean	83f6e09e248b7159
+0	16	0	clean	83f6e09e248b7159
+0	12	0	clean	83f6e09e248b7159
+1	74	7218576851475633	CMakeFiles/expressease.dir/expressease.cpp.o	cc929d69e09b6434
+75	429	7218576854935384	C:/Users/winec/Desktop/ExpressVersion.3/EXPRESSEASE2/EXPRESSEASE2/EXPRESSEASE2/app/build/intermediates/cxx/Debug/414w3855/obj/x86/libexpressease.so	ac93c2d44a1c6309

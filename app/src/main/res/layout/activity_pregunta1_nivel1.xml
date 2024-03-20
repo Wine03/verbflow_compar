@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondosinlogo"
+    tools:context=".Nivel1.Pregunta1Nivel1">
+
+    <TextView
+        android:id="@+id/btnNivel1P1pregunta1"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="¿Te gusta salir de viaje con tu familia?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#0B0B0B"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.233"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="287dp"
+        android:layout_height="163dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.243"
+        tools:ignore="MissingConstraints">
+
+        <RadioGroup
+            android:id="@+id/btnNivel1P1opciones1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!-- Respuesta 1 -->
+            <RadioButton
+                android:id="@+id/btnNivel1P1opcion1_1"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Si me gusta salir de viaje con ellos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#090909" />
+
+            <!-- Respuesta 2 -->
+
+            <RadioButton
+                android:id="@+id/btnNivel1P1opcion1_2"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="A mi si me gusta ir de viaje con ellos "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#090808" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="171dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/familia" />
+
+    <Button
+        android:id="@+id/btnNivel1P1verificar1"
+        android:layout_width="169dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/background"
+        android:text="Verificar respuesta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/btnaudio1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/altavoz"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNivel1P1pregunta1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnNivel1pregunta2"
+        android:layout_width="169dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/background"
+        android:text="Siguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toEndOf="@+id/btnNivel1P1verificar1"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

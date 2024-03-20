@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondosinlogo"
+    tools:context=".Nivel2.Pregunta3Nivel2">
+
+    <ImageButton
+        android:id="@+id/btnaudio1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/altavoz"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pregunta1Nivel2"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/pregunta1Nivel2"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text="¿Cuántos minutos tiene una hora?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#0B0B0B"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.327"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="164dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="288dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hora" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="287dp"
+        android:layout_height="163dp"
+        android:layout_marginBottom="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <RadioGroup
+            android:id="@+id/Pregunta3Nivel2opciones1"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content">
+
+            <!-- Respuesta 1 -->
+            <RadioButton
+                android:id="@+id/Nivel2P2opcion1_1"
+                android:layout_width="239dp"
+                android:layout_height="50dp"
+                android:text="Una hora tiene 60 minutos"
+                android:textColor="#090909" />
+
+            <!-- Respuesta 2 -->
+            <RadioButton
+                android:id="@+id/Nivel2P2opcion1_2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Tiene 60 minutos"
+                android:textColor="#090909" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Nivel2P4verificar1"
+        android:layout_width="169dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/background"
+        android:text="Verificar respuesta"
+        android:textColor="#0B0B0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp" />
+
+    <Button
+        android:id="@+id/Nivel2SiguienteP4N2"
+        android:layout_width="169dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/background"
+        android:text="Siguiente"
+        android:textColor="#0B0B0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

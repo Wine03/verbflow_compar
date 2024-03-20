@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondosinlogo"
+    tools:context=".Nivel2.Pregunta1"
+    tools:ignore="ExtraText">
+
+    <!-- Botón para verificar respuesta -->
+
+    <TextView
+        android:id="@+id/pregunta1Nivel2"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:text="¿Eras tú el que se cayó de la bicicleta?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#0B0B0B"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="171dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="276dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bicicleta" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="287dp"
+        android:layout_height="163dp"
+        android:layout_marginBottom="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <RadioGroup
+            android:id="@+id/Pregunta2Nivel2opciones1"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content">
+
+            <!-- Respuesta 1 -->
+            <RadioButton
+                android:id="@+id/Nivel2P2opcion1_1"
+                android:layout_width="239dp"
+                android:layout_height="50dp"
+                android:text="Si, era yo el que se cayó"
+                android:textColor="#090808" />
+
+            <!-- Respuesta 2 -->
+            <RadioButton
+                android:id="@+id/Nivel2P2opcion1_2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Si, era el que se cayó"
+                android:textColor="#090808" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Nivel2verificar1"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/green_buton"
+        android:text="Verificar respuesta"
+        android:textColor="#0B0B0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+    <ImageButton
+        android:id="@+id/btnaudio1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/altavoz"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pregunta1Nivel2"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/Nivel2SiguienteP3N2"
+        android:layout_width="169dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/green_buton"
+        android:text="siguiente"
+        android:textColor="#0B0B0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

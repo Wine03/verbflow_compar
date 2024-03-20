@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondosinlogo"
+    tools:context=".Nivel3.Pregunta2Nivel3">
+
+    <ImageButton
+        android:id="@+id/btnaudio1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/altavoz"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNivel3P2pregunta1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/btnNivel3P2pregunta1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:fontFamily="sans-serif"
+        android:text="Seleccionar cual es la manera correcta para pedir permiso de ir a jugar fútbol"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0B0B0B"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="300dp"
+        android:layout_height="167dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.833"
+        tools:ignore="MissingConstraints">
+
+        <RadioGroup
+            android:id="@+id/btnNivel3P2opciones1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!-- Respuesta 1 -->
+            <RadioButton
+                android:id="@+id/btnNivel3P2opcion1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:text="¿Puedo ir a jugar fútbol? "
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#0B0B0B" />
+
+            <!-- Respuesta 2 -->
+            <RadioButton
+                android:id="@+id/btnNivel3P2opcion1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:text="¿Me da permiso para ir a jugar futbol?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#0B0B0B" />
+
+            <!-- Respuesta 3 -->
+            <RadioButton
+                android:id="@+id/btnNivel3P2opcion1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="66dp"
+                android:text="Ahora vengo voy a jugar futbol"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#0B0B0B" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Nivel3P2verificar1"
+        android:layout_width="169dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/background"
+        android:text="Verificar respuesta"
+        android:textColor="#0B0B0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Siguientenivel3P3"
+        android:layout_width="169dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/background"
+        android:text="Siguiente"
+        android:textColor="#0B0B0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toEndOf="@+id/Nivel3P2verificar1"
+        app:layout_constraintStart_toStartOf="@+id/Nivel3P2verificar1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="168dp"
+        android:layout_height="155dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/futbol" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+# ninja log v5
+0	48	7209533046221818	CMakeFiles/expressease.dir/expressease.cpp.o	d32277e07f464274
+49	174	7209533047430111	C:/Users/winec/Desktop/ExpressVersion.3/EXPRESSEASE2/EXPRESSEASE2/EXPRESSEASE2/app/build/intermediates/cxx/Debug/414w3855/obj/armeabi-v7a/libexpressease.so	e0e4cf240e0004ba
+0	9	0	clean	83f6e09e248b7159
+0	12	0	clean	83f6e09e248b7159
+0	10	0	clean	83f6e09e248b7159
+1	83	7209534091608525	CMakeFiles/expressease.dir/expressease.cpp.o	d32277e07f464274
+83	214	7209534092933095	C:/Users/winec/Desktop/ExpressVersion.3/EXPRESSEASE2/EXPRESSEASE2/EXPRESSEASE2/app/build/intermediates/cxx/Debug/414w3855/obj/armeabi-v7a/libexpressease.so	e0e4cf240e0004ba
+0	11	0	clean	83f6e09e248b7159
+1	233	7218542096611098	CMakeFiles/expressease.dir/expressease.cpp.o	d32277e07f464274
+234	697	7218542101311203	C:/Users/winec/Desktop/ExpressVersion.3/EXPRESSEASE2/EXPRESSEASE2/EXPRESSEASE2/app/build/intermediates/cxx/Debug/414w3855/obj/armeabi-v7a/libexpressease.so	e0e4cf240e0004ba
+1	19	0	clean	83f6e09e248b7159
+1	12	0	clean	83f6e09e248b7159
+7	99	7218576848350008	CMakeFiles/expressease.dir/expressease.cpp.o	d32277e07f464274
+100	235	7218576849660606	C:/Users/winec/Desktop/ExpressVersion.3/EXPRESSEASE2/EXPRESSEASE2/EXPRESSEASE2/app/build/intermediates/cxx/Debug/414w3855/obj/armeabi-v7a/libexpressease.so	e0e4cf240e0004ba

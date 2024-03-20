@@ -1,0 +1,23 @@
+# ninja log v5
+1	453	7209515016318168	CMakeFiles/expressease.dir/expressease.cpp.o	18d88f10fc4a61f7
+455	1234	7209515022393981	C:/Users/winec/Desktop/ExpressVersion.3/EXPRESSEASE2/EXPRESSEASE2/EXPRESSEASE2/app/build/intermediates/cxx/Debug/414w3855/obj/arm64-v8a/libexpressease.so	eea6cef592f1ceae
+1	12	0	clean	83f6e09e248b7159
+0	11	0	clean	83f6e09e248b7159
+2	358	7209533008795819	CMakeFiles/expressease.dir/expressease.cpp.o	18d88f10fc4a61f7
+358	696	7209533012290045	C:/Users/winec/Desktop/ExpressVersion.3/EXPRESSEASE2/EXPRESSEASE2/EXPRESSEASE2/app/build/intermediates/cxx/Debug/414w3855/obj/arm64-v8a/libexpressease.so	eea6cef592f1ceae
+0	9	0	clean	83f6e09e248b7159
+0	327	7209533920638305	CMakeFiles/expressease.dir/expressease.cpp.o	18d88f10fc4a61f7
+327	487	7209533922265892	C:/Users/winec/Desktop/ExpressVersion.3/EXPRESSEASE2/EXPRESSEASE2/EXPRESSEASE2/app/build/intermediates/cxx/Debug/414w3855/obj/arm64-v8a/libexpressease.so	eea6cef592f1ceae
+0	12	0	clean	83f6e09e248b7159
+1	9	0	clean	83f6e09e248b7159
+1	47	7209534088586897	CMakeFiles/expressease.dir/expressease.cpp.o	18d88f10fc4a61f7
+48	147	7209534089548571	C:/Users/winec/Desktop/ExpressVersion.3/EXPRESSEASE2/EXPRESSEASE2/EXPRESSEASE2/app/build/intermediates/cxx/Debug/414w3855/obj/arm64-v8a/libexpressease.so	eea6cef592f1ceae
+1	10	0	clean	83f6e09e248b7159
+0	388	7209536957371338	CMakeFiles/expressease.dir/expressease.cpp.o	18d88f10fc4a61f7
+389	615	7209536959435167	C:/Users/winec/Desktop/ExpressVersion.3/EXPRESSEASE2/EXPRESSEASE2/EXPRESSEASE2/app/build/intermediates/cxx/Debug/414w3855/obj/arm64-v8a/libexpressease.so	eea6cef592f1ceae
+0	12	0	clean	83f6e09e248b7159
+0	195	7218571942074992	CMakeFiles/expressease.dir/expressease.cpp.o	18d88f10fc4a61f7
+196	559	7218571945673116	C:/Users/winec/Desktop/ExpressVersion.3/EXPRESSEASE2/EXPRESSEASE2/EXPRESSEASE2/app/build/intermediates/cxx/Debug/414w3855/obj/arm64-v8a/libexpressease.so	eea6cef592f1ceae
+1	13	0	clean	83f6e09e248b7159
+2	198	7218576844064314	CMakeFiles/expressease.dir/expressease.cpp.o	18d88f10fc4a61f7
+199	370	7218576845773584	C:/Users/winec/Desktop/ExpressVersion.3/EXPRESSEASE2/EXPRESSEASE2/EXPRESSEASE2/app/build/intermediates/cxx/Debug/414w3855/obj/arm64-v8a/libexpressease.so	eea6cef592f1ceae

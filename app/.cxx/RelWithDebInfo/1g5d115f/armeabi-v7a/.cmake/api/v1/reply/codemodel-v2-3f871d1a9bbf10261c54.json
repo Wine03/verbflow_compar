@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "expressease",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "expressease::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-expressease-RelWithDebInfo-6646861ed77de8a45871.json",
+					"name" : "expressease",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/winec/Desktop/ExpressVersion.3/EXPRESSEASE2/EXPRESSEASE2/EXPRESSEASE2/app/.cxx/RelWithDebInfo/1g5d115f/armeabi-v7a",
+		"source" : "C:/Users/winec/Desktop/ExpressVersion.3/EXPRESSEASE2/EXPRESSEASE2/EXPRESSEASE2/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

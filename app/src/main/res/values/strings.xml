@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VerbFlow</string>
+    <string name="SUSCRIBETE">NO TIENE CUENTA? SUSCRIBETE</string>
+    <string name="INICIO_SESION">INICIO DE SESION</string>
+    <string name="SUSCRIBIR">SUSCRIBIR</string>
+    <string name="REGISTRAR">REGISTRAR</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondosinlogo"
+    tools:context=".Nivel1.Pregunta3Nivel1">
+
+
+    <TextView
+        android:id="@+id/btnNivel1P3pregunta3"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="142dp"
+        android:fontFamily="sans-serif"
+        android:text="¿Qué haras el domingo?"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0B0B0B"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.166"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/btnaudio1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/altavoz"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNivel1P3pregunta3"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="300dp"
+        android:layout_height="167dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819"
+        tools:ignore="MissingConstraints">
+
+        <RadioGroup
+            android:id="@+id/btnNivel1P3opciones1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!-- Respuesta 1 -->
+            <RadioButton
+                android:id="@+id/btnNivel1P3opcion1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:text="Voy a jugar futbol"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#090808" />
+
+            <!-- Respuesta 2 -->
+            <RadioButton
+                android:id="@+id/btnNivel1P3opcion1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:text="Ire a jugar futbol"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#090808" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Nivel1P3verificar1"
+        android:layout_width="169dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/background"
+        android:text="Verificar respuesta"
+        android:textColor="#0B0B0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Siguientenivel1P4"
+        android:layout_width="169dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/background"
+        android:text="Siguiente"
+        android:textColor="#0B0B0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toEndOf="@+id/Nivel1P3verificar1"
+        app:layout_constraintStart_toStartOf="@+id/Nivel1P3verificar1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="174dp"
+        android:layout_height="154dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/domingo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_verbflow"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_verbflow_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EXPRESSEASE"
+        tools:targetApi="31">
+        <activity
+            android:name=".videos.video_audiencia"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".videos.video_presentacion"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.video_objetivos"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActividadesPrincipales.Nombre_de_app"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Crucigrama.SopadeLetras"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel3.Pregunta5Nivel3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel3.Pregunta4Nivel3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel2.Pregunta5Nivel2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel2.Pregunta4Nivel2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel2.Pregunta3Nivel2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel2.Pregunta2Nivel2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel1.Pregunta5Nivel1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel1.Pregunta4Nivel1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel1.Pregunta3Nivel1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel1.Pregunta1Nivel1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel1.Pregunta2Nivel1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.Videos"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Progreso.ProgresoNivel1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel3.Pregunta3Nivel3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel3.Pregunta2Nivel3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel3.Pregunta1Nivel3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Progreso.ProgresoNivel3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel3.Nivel3General"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Progreso.Progreso"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel2.Pregunta1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NivelGeneral"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel2.Nivel2_Principal"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActividadesPrincipales.Navegacion"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nivel1.Nivel1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActividadesPrincipales.Registar"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActividadesPrincipales.PRINCIPAL"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActividadesPrincipales.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nivel1.Nivel1"
+    android:background="@drawable/ariprin">
+
+    <ImageButton
+        android:id="@+id/circularButton"
+        android:layout_width="115dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="140dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nivel1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:src="@drawable/nivel1" />
+
+    <ImageButton
+        android:id="@+id/cbNivel1_2"
+        android:layout_width="94dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="413dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nivel2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circularButton"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:src="@drawable/nivel2" />
+
+
+    <ImageButton
+        android:id="@+id/cbNivel1_3"
+        android:layout_width="113dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nivel3"
+        app:layout_constraintBottom_toTopOf="@+id/cbNivel1_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circularButton"
+        app:layout_constraintVertical_bias="0.216"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:src="@drawable/nivel3" />
+
+    <ImageButton
+        android:id="@+id/cbNivel1_4"
+        android:layout_width="65dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="152dp"
+        android:background="@drawable/background"
+        android:src="@drawable/microfono"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbNivel1_2"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="106dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/icono_verbflow" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="273dp"
+        android:layout_height="127dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nivelesss" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
